@@ -1,4 +1,7 @@
 """
+I think I fixed the network error associated with the Git directory in my Rose-Hulman. I want to see if it will make me log into GitHub.  
+"""
+"""
 Demonstrates using OBJECTS via Turtle Graphics.
 
 Concepts include:
@@ -10,7 +13,7 @@ Also:
   -- ASSIGNING a VALUE to a NAME (VARIABLE).
 
 Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
-         their colleagues and Neil Nordquist Again.
+         their colleagues and Neil Nordquist. 
 """
 ########################################################################
 #
