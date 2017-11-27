@@ -16,6 +16,9 @@ Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
          their colleagues and Neil Nordquist. 
 """
 ########################################################################
+# TODO: 11. Why is todo 1 done? 
+# There could be some problems with you having taken this class before. Are you forking, then pulling, then editing,
+# then commiting the proper code that you have never touched before? Why is my name, Neil Nordquist, under toodo 1?
 #
 # TODO: 1.
 #  (Yes, that means for YOU to DO things per these instructions:)
