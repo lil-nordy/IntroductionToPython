@@ -16,7 +16,7 @@ Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
          their colleagues and Neil Nordquist. 
 """
 ########################################################################
-# TODO: 11. Why is todo 1 done?
+# DONE: 11. Why was to do 1 done?
 # There could be some problems with you having taken this class before. Are you forking, then pulling, then editing,
 # then commiting the proper code that you have never touched before? Why is my name, Neil Nordquist, under toodo 1?
 #
@@ -99,7 +99,7 @@ matt.forward(50)
 
 ########################################################################
 #
-# TODO: 4.
+# done: 4.
 #   The code above  CONSTRUCTS  two SimpleTurtle objects and gives those objects NAMES:
 #       dave    matt
 #
