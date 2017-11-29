@@ -36,22 +36,45 @@ window = rg.TurtleWindow()
 
 radius = 50
 speed = 1
+step = 0
 erik = rg.SimpleTurtle('turtle')
 erik.paint_bucket = rg.PaintBucket('red')
+
 
 for k in range(10):
     erik.speed = speed + 10
 # speed, integer from 1 - 10 in the doc-string  of the rose-graphics.py file, but seems to respond to much higher numbers
     erik.pen_down()
+    erik.begin_fill()
     erik.draw_circle(radius)
     radius = radius + 5
+    step = step + 5
+    erik.forward(step)
+    erik.end_fill()
 
 nate = rg.SimpleTurtle('turtle')
 nate.paint_bucket = rg.PaintBucket('green')
-speed = 10
 nate.left(270)
-nate.speed = 1
 nate.forward(25)
+nate.left(270)
+
+speed = 10
+angle = 0
+radius = 50
+
+
+for k in range(25):
+    nate.pen_down()
+    nate.begin_fill()
+    nate.speed = speed + 10
+    nate.draw_circle(radius)
+    radius = radius + 5
+    angle = angle + 5
+    nate.left(angle)
+    nate.end_fill()
+
+
+
 window.close_on_mouse_click()
 
 
